@@ -1,4 +1,10 @@
-*{
+body {
+  margin: 0;
+}
+.header-container {
+  width: 100%;
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,8 +21,7 @@ nav {
   z-index: 99;
 }
 .logo {
-  background: url(" ") no-repeat center
-      center/cover;
+  background-image: url("./06577d261edb9ec.png");
   width: 100px;
   height: 100px;
   cursor: pointer;
@@ -36,13 +41,14 @@ menu li button {
   background-color: gray;
   border: none;
   border-radius: 5px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: black;
   font-weight: bold;
   font-size: 18px;
 }
 menu li button:hover {
-  background-color: #667a7c;
+  background-color: darkgray;
   cursor: pointer;
   border-radius: 5px;
 }
+
